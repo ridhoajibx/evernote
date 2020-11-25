@@ -13,6 +13,13 @@ code {
     monospace;
 }
 
-.brand-logo {
-    margin-left: 10px;
+@media (min-width: 1024px) {
+    .brand-logo {
+        margin-left: 10px;
+    }
+}
+
+form {
+    padding: 20px;
+    margin: 60px;
 }
