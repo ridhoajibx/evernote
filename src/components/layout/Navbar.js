@@ -4,8 +4,8 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav>
-            <div className="nav-wrapper">
-                <Link to="/" className="brand-logo">Logo</Link>
+            <div className="nav-wrapper green">
+                <Link to="/" className="brand-logo">Evernote</Link>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li>
                         <NavLink to="/favorite">Favorites</NavLink>
