@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 import { createStore, applyMiddleware, compose } from 'redux';
-import rootReducer from './store/reducer/rootReducer';
+import rootReducer from './store/reducers/rootReducer';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import {
@@ -24,7 +25,7 @@ const rrfProps = {
     firebase,
     config: fbconfig,
     dispatch: store.dispatch,
-    createFirestoreInstance // <- needed if using firestore
+    createFirestoreInstance
 }
 
 ReactDOM.render(

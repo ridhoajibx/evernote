@@ -1,16 +1,16 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore'
 
-var firebaseConfig = {
-    apiKey: "AIzaSyAYM1KKB-qU8GK2G8KD3orZyTNHPYwZpJY",
-    authDomain: "evernote-clone-15f5a.firebaseapp.com",
-    databaseURL: "https://evernote-clone-15f5a.firebaseio.com",
-    projectId: "evernote-clone-15f5a",
-    storageBucket: "evernote-clone-15f5a.appspot.com",
-    messagingSenderId: "467442606003",
-    appId: "1:467442606003:web:245e70aa89ab178b6875c6"
+const firebaseConfig = {
+    apiKey: "AIzaSyCEbLTJh06YydL_XV_cYq1kxhDl6WLGaDw",
+    authDomain: "evernote-clone-18ba0.firebaseapp.com",
+    databaseURL: "https://evernote-clone-18ba0.firebaseio.com",
+    projectId: "evernote-clone-18ba0",
+    storageBucket: "evernote-clone-18ba0.appspot.com",
+    messagingSenderId: "533272443830",
+    appId: "1:533272443830:web:de06f2078cfbf5a0e3df17"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-export default firebaseConfig;
+export default firebase;
