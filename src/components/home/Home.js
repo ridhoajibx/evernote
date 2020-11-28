@@ -17,7 +17,7 @@ const Home = () => {
         <div className="container">
             <div className="row center-align">
                 <div className="col s12 m7"><Form /></div>
-                <div className="col s12 m5"><NotesList /></div>
+                <div className="col s12 m5"><NotesList notes={notes} /></div>
             </div>
         </div>
     );
