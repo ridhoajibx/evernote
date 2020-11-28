@@ -8,7 +8,7 @@ const Navbar = () => {
                 <Link to="/" className="brand-logo">Evernote</Link>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li>
-                        <NavLink to="/favorite">Favorites</NavLink>
+                        <NavLink to="/favorites">Favorites</NavLink>
                     </li>
                 </ul>
             </div>
