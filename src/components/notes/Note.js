@@ -25,7 +25,9 @@ const Note = ({ note }) => {
             <p className="truncate">{note.content}</p>
             <p className="grey-text">{moment(note.createdAt.toDate()).fromNow()}</p>
             <div className="right-align">
-                <i className="material-icons" style={{ cursor: 'pointer' }}>edit</i>
+                <Link to={`/editform/${note.id}`}>
+                    <i className="material-icons" style={{ cursor: 'pointer' }}>edit</i>
+                </Link>
             </div>
         </div>
     );
