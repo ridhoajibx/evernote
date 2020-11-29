@@ -13,7 +13,6 @@ const Favorites = () => {
         }
     ])
 const favnotes = useSelector(state => state.firestore.ordered.favnotes)
-console.log('fav', favnotes);
     return (
         <div>
             <NotesList notes={favnotes} />

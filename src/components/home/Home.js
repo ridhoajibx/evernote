@@ -12,7 +12,6 @@ const Home = () => {
         }
     ])
     const notes = useSelector(state => state.firestore.ordered.notes)
-    console.log(notes);
     return (
         <div className="container">
             <div className="row center-align">

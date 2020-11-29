@@ -6,7 +6,6 @@ import { updateNote } from '../../store/actions/noteAction';
 
 const EditForm = () => {
     const note = useSelector(state => state.note)
-    console.log(note);
     const [title, bindTitle, resetTitle] = useInput(note.title);
     const [content, bindContent, resetContent] = useInput(note.content);
     const dispatch = useDispatch();
