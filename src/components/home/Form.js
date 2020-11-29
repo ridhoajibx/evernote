@@ -20,7 +20,7 @@ const Form = () => {
                 <h5 className="grey-text">New Note</h5>
                 <div className="input-field">
                     <input id="note_title" type="text" className="validate" {...bindTitle} />
-                    <label className="active" htmlFor="note_title">Note title</label>
+                    <label htmlFor="note_title">Note title</label>
                 </div>
                 <div className="input-field">
                     <textarea id="note_content" className="materialize-textarea" {...bindContent}></textarea>
